@@ -1,0 +1,17 @@
+import { defineConfig } from '@agent-tars/interface';
+
+export default defineConfig({
+  // Model configuration
+  model: {
+    provider: 'volcengine',
+    id: 'doubao-1.5-thinking vision-pro',
+    apiKey: ''
+  },
+  
+  // Browser control mode
+  browser: {
+    control: 'visual-grounding', // 'hybrid', 'visual-grounding', 'dom'
+  },
+
+  // ... other configurations
+});
